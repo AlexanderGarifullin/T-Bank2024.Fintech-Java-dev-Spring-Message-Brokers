@@ -1,0 +1,41 @@
+Benchmark                                                                    Mode  Cnt       Score   Error   Units
+BenchmarkTests.LoadBalancingAndMultipleConsumersKafka_Consumer_Throughput   thrpt       113892.517          ops/ms
+BenchmarkTests.LoadBalancingAndMultipleConsumersKafka_Producer_Throughput   thrpt          223.832          ops/ms
+BenchmarkTests.LoadBalancingAndMultipleConsumersRabbit_Consumer_Throughput  thrpt            0.191          ops/ms
+BenchmarkTests.LoadBalancingAndMultipleConsumersRabbit_Producer_Throughput  thrpt           10.864          ops/ms
+BenchmarkTests.LoadBalancingKafka_Consumer_Throughput                       thrpt        72451.765          ops/ms
+BenchmarkTests.LoadBalancingKafka_Producer_Throughput                       thrpt          256.089          ops/ms
+BenchmarkTests.LoadBalancingRabbit_Consumer_Throughput                      thrpt            0.269          ops/ms
+BenchmarkTests.LoadBalancingRabbit_Producer_Throughput                      thrpt           12.026          ops/ms
+BenchmarkTests.MultipleConsumersKafka_Consumer_Throughput                   thrpt        72049.855          ops/ms
+BenchmarkTests.MultipleConsumersKafka_Producer_Throughput                   thrpt          761.640          ops/ms
+BenchmarkTests.MultipleConsumersRabbit_Consumer_Throughput                  thrpt            0.274          ops/ms
+BenchmarkTests.MultipleConsumersRabbit_Producer_Throughput                  thrpt           27.633          ops/ms
+BenchmarkTests.SimpleKafka_Consumer_Throughput                              thrpt       250498.964          ops/ms
+BenchmarkTests.SimpleKafka_Producer_Throughput                              thrpt          758.989          ops/ms
+BenchmarkTests.SimpleRabbit_Consumer_Throughput                             thrpt            0.811          ops/ms
+BenchmarkTests.SimpleRabbit_Producer_Throughput                             thrpt           44.707          ops/ms
+BenchmarkTests.StresssKafka_Consumer_Throughput                             thrpt        47781.814          ops/ms
+BenchmarkTests.StresssKafka_Producer_Throughput                             thrpt           80.816          ops/ms
+BenchmarkTests.StresssRabbit_Consumer_Throughput                            thrpt            0.080          ops/ms
+BenchmarkTests.StresssRabbit_Producer_Throughput                            thrpt            3.510          ops/ms
+BenchmarkTests.LoadBalancingAndMultipleConsumersKafka_Consumer_Latency       avgt           ≈ 10⁻⁵           ms/op
+BenchmarkTests.LoadBalancingAndMultipleConsumersKafka_Producer_Latency       avgt            0.004           ms/op
+BenchmarkTests.LoadBalancingAndMultipleConsumersRabbit_Consumer_Latency      avgt            3.569           ms/op
+BenchmarkTests.LoadBalancingAndMultipleConsumersRabbit_Producer_Latency      avgt            0.082           ms/op
+BenchmarkTests.LoadBalancingKafka_Consumer_Latency                           avgt           ≈ 10⁻⁵           ms/op
+BenchmarkTests.LoadBalancingKafka_Producer_Latency                           avgt            0.004           ms/op
+BenchmarkTests.LoadBalancingRabbit_Consumer_Latency                          avgt            5.714           ms/op
+BenchmarkTests.LoadBalancingRabbit_Producer_Latency                          avgt            0.128           ms/op
+BenchmarkTests.MultipleConsumersKafka_Consumer_Latency                       avgt           ≈ 10⁻⁵           ms/op
+BenchmarkTests.MultipleConsumersKafka_Producer_Latency                       avgt            0.001           ms/op
+BenchmarkTests.MultipleConsumersRabbit_Consumer_Latency                      avgt            4.355           ms/op
+BenchmarkTests.MultipleConsumersRabbit_Producer_Latency                      avgt            0.039           ms/op
+BenchmarkTests.SimpleKafka_Consumer_Latency                                  avgt           ≈ 10⁻⁵           ms/op
+BenchmarkTests.SimpleKafka_Producer_Latency                                  avgt            0.001           ms/op
+BenchmarkTests.SimpleRabbit_Consumer_Latency                                 avgt            1.331           ms/op
+BenchmarkTests.SimpleRabbit_Producer_Latency                                 avgt            0.031           ms/op
+BenchmarkTests.StresssKafka_Consumer_Latency                                 avgt           ≈ 10⁻⁴           ms/op
+BenchmarkTests.StresssKafka_Producer_Latency                                 avgt            0.012           ms/op
+BenchmarkTests.StresssRabbit_Consumer_Latency                                avgt           13.020           ms/op
+BenchmarkTests.StresssRabbit_Producer_Latency                                avgt            0.382           ms/op
