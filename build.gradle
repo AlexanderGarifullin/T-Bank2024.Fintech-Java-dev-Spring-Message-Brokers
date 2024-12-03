@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.4.0'
 	id 'io.spring.dependency-management' version '1.1.6'
+	id 'me.champeau.jmh' version '0.7.2'
 }
 
 group = 'com.example'
@@ -24,12 +25,19 @@ repositories {
 }
 
 dependencies {
+	// spring
 	implementation 'org.springframework.boot:spring-boot-starter-amqp'
 	implementation 'org.springframework.kafka:spring-kafka'
 
+	// lombok
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	// jmh
+	testImplementation 'org.openjdk.jmh:jmh-core:1.37'
+	testAnnotationProcessor 'org.openjdk.jmh:jmh-generator-annprocess:1.37'
+
+	//tests
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.amqp:spring-rabbit-test'
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
